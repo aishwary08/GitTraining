@@ -1,15 +1,16 @@
 // script.js
 
 // Function to be executed on button click
-function updateOutput(arg3, arg4) {
+function updateOutput(arg1, arg2) {
   // Get the output element
   var outputElement = document.getElementById('output');
 
   // Update the content
   outputElement.textContent = 'Button clicked!';
 
-  // You can perform more complex operations or call other functions here
+  // Log a message to the console
+  console.log("Button clicked!");
 }
 
-// Modified external script (change #2)
-console.log("This is a conflicting change!");
+// Adding a click event listener to the button
+document.getElementById('clickMeButton').addEventListener('click', updateOutput);
