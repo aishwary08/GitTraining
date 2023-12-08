@@ -1,7 +1,7 @@
 // script.js
 
 // Function to be executed on button click
-function updateOutput(test, test2, test3, test4) {
+function updateOutput(arg3, arg4) {
   // Get the output element
   var outputElement = document.getElementById('output');
 
